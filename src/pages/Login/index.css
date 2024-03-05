@@ -1,0 +1,93 @@
+body{
+}
+
+
+.login-container{
+    background-image: linear-gradient(to right, #cb6ce6, #004aad);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.imagen img{
+    width: 100%;
+}
+
+
+.login-box{
+    background-color: var(--color-negro);
+    padding: 25px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+
+    max-width: 560px;
+    width: 90%;
+    margin: 0 auto;
+
+    box-shadow: 0 0 50px rgb(255, 255, 255);
+}
+
+.login-box form{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.input-image{
+    position: relative;
+
+
+}
+.input-image input{
+    width: 100%;
+    padding: 15px;
+    border-radius: 14px;
+    padding-left: 20px;
+    background-color: var(--color-negro);
+    border-color: var(--color-blanco);
+    color: var(--color-blanco);
+}
+
+.input-image img{
+    position: absolute;
+    right: 7px;
+    top: 0;
+    bottom: 0;
+    height: 90%;
+    margin: auto;
+    border-radius: 50%;
+
+}
+
+.login-box form{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.login-box form button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    padding: 20px;
+    background-color: var(--color-boton);
+    border-radius: 15px;
+    border-color: var(--color-blanco);
+    transition: all 600ms;
+}
+
+
+.login-box form button:hover{
+
+    background-color: var(--color-blanco);
+    transform: scale(1.07);
+}
+
+.login-title{
+    color: white;
+    text-align: center;
+}
